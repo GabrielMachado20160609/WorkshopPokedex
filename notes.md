@@ -30,6 +30,7 @@ Habilidades que podem executar scripts, definidas como skills do Claude.
 ```
     SKILL.md
 ```
+obs.: após executar um prompt, podemos replicar uma ação usando /create-skill
 
 #### Agentes
 Coração do desenvolvimento, cada um especialista em um tópico.
@@ -52,6 +53,7 @@ Gatilhos disparados que tomam decisões (não isoladamente) antes ou depois de f
 ###### Detalhes
 - Demais IDEs são forks do VS Code, mas só o Code consegue processar a IA sem emular o ambiente
 - Os agentes agora conseguem usar Playwright de forma integral, realizando testes no frontend, até mesmo tirando screenshots
+- Levar em consideração bases de dados Graph
 
 ref:
 https://github.com/cyz/devdays-pokedex
