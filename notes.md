@@ -33,6 +33,15 @@ Habilidades que podem executar scripts, definidas como skills do Claude.
 
 #### Agentes
 Coração do desenvolvimento, cada um especialista em um tópico.
+```
+    *.agent.md
+```
+
+#### Instrução mestre
+Arquivo que instui globalmente os agentes.
+```
+    AGENTS.md
+```
 
 #### Hooks
 Gatilhos disparados que tomam decisões (não isoladamente) antes ou depois de ferramentas serem usadas. Pode ser utilizada como um Guardrail. Podem executar scripts. Pode até disparar um pipeline de CI/CD.
@@ -42,6 +51,7 @@ Gatilhos disparados que tomam decisões (não isoladamente) antes ou depois de f
 
 ###### Detalhes
 - Demais IDEs são forks do VS Code, mas só o Code consegue processar a IA sem emular o ambiente
+- Os agentes agora conseguem usar Playwright de forma integral, realizando testes no frontend, até mesmo tirando screenshots
 
 ref:
 https://github.com/cyz/devdays-pokedex
